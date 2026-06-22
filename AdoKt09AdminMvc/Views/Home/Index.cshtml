@@ -1,0 +1,19 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	@if (User.Identity?.IsAuthenticated == true)
+	{
+		<p>
+			<a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin panel</a>
+		</p>
+	}
+	else
+	{
+		<p>
+			<a asp-area="Identity" asp-page="/Account/Login">Sign in</a>
+		</p>
+	}
+</div>

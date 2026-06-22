@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoKt09AdminMvc", "AdoKt09AdminMvc\AdoKt09AdminMvc.csproj", "{9102E88C-D7FA-4660-B8C6-5F3743BCD7CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9102E88C-D7FA-4660-B8C6-5F3743BCD7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9102E88C-D7FA-4660-B8C6-5F3743BCD7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9102E88C-D7FA-4660-B8C6-5F3743BCD7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9102E88C-D7FA-4660-B8C6-5F3743BCD7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
